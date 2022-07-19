@@ -1,5 +1,6 @@
 body {
     text-align: center;
+    font-family: Avenir;
 }
 
 img {
@@ -9,4 +10,14 @@ img {
 
 a {
     margin: 50px;
+    text-decoration: none;
+    border: 1px solid black;
+    border-radius: 3px;
+    padding: 5px;
+    color: black;
+}
+
+a:hover {
+    background-color: grey;
+    color: white; 
 }
